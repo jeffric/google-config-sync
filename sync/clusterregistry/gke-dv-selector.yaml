@@ -1,0 +1,10 @@
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+  name: selector-env-dv
+spec:
+  selector:
+    matchLabels:
+      environment: dv
+      env: dv
+      cluster: gke-dv

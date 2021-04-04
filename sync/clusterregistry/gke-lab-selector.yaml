@@ -1,0 +1,10 @@
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+  name: selector-env-lab
+spec:
+  selector:
+    matchLabels:
+      environment: lab
+      env: lab
+      cluster: gke-lab
