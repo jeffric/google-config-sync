@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: test-namespace-selector
   annotations:
-    # configmanagement.gke.io/cluster-selector: selector-env-lab
-    configsync.gke.io/cluster-name-selector: gke-lab
+    configmanagement.gke.io/cluster-selector: selector-env-lab
+    #configsync.gke.io/cluster-name-selector: gke-lab
