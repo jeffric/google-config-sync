@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: jeff-ns
-  annotations:
-    configmanagement.gke.io/cluster-selector: selector-env-lab
-    #configsync.gke.io/cluster-name-selector: gke-lab
