@@ -4,5 +4,3 @@ metadata:
   name: gke-dv
   labels:
     environment: dv
-    env: dv
-    cluster: gke-dv
