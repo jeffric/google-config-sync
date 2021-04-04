@@ -19,10 +19,7 @@ spec:
         - containerPort: 8080
         volumeMounts:
         - name: jenkins-home
-          - mountPath: /var
-            name: jenkins-volume
-            subPath: jenkins_home
-      volumes:      
+          mountPath: /var/jenkins_home
+      volumes:
       - name: jenkins-home
-        persistentVolumeClaim:
-          claimName: jenkins-vol
+        emptyDir: { }
